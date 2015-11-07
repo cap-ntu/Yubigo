@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    
+  <!-- English -->
+  
+    <string id="610">%s</string>
+    <string id="611">%s</string>
+    <string id="612">Error: %s</string>
+
+  <!-- Script Settings -->
+
+    <string id="30100">Settings</string>
+    <string id="30101">Username</string>
+    <string id="30102">Password</string>
+
+</strings>

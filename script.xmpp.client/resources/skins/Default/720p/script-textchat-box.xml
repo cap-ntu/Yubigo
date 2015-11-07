@@ -1,0 +1,91 @@
+	<!-- Ace -->
+
+	<window id="1200">
+	<defaultcontrol>120</defaultcontrol>
+	<controls>
+		<visible>Control.HasFocus(1200)</visible>
+		<!--control type="button" id="9911">
+			<include>InvisibleButton</include>
+			<onleft>Close</onleft>
+			<onright>Close</onright>
+			<onup>Close</onup>
+			<ondown>Close</ondown>
+		</control-->
+		<!--control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<texture>black.png</texture>
+			<colordiffuse>C3FFFFFF</colordiffuse>
+			<include>Animation_Fade</include>
+		</control-->
+		<control type="group" id="446">
+			<animation type="WindowOpen" reversible="false">
+				<effect type="slide" start="0, 20" end="0, -205" time="500" easing="inout" tween="sine"/>
+				<effect type="fade" start="0" end="100" time="500" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="slide" start="0, -205" end="0, 20" time="300" easing="inout" tween="cubic"/>
+				<effect type="fade" start="100" end="0" time="300" />
+			</animation>
+			<posx>900</posx>
+			<posy>720</posy>
+			<control type="image">
+				<posx>5</posx>
+				<posy>0</posy>
+				<width>220</width>
+				<height>260</height>
+				<texture border='5' flipx="true">shadow.png</texture>
+				<colordiffuse>C3FFFFFF</colordiffuse>
+				<fadetime>200</fadetime>
+			</control>
+			<control type="image">
+				<posx>5</posx>
+				<posy>0</posy>
+				<width>220</width>
+				<height>260</height>
+				<texture>darkgrey.png</texture>
+				<colordiffuse>D3FFFFFF</colordiffuse>	
+				<include>Animation_Fade</include>
+			</control>
+			<control type="image" id="110">
+				<posx>15</posx>
+				<posy>6</posy>
+				<width>24</width>
+				<height>24</height>
+				<texture>-</texture>
+			</control>
+			<control type="label" id="100">
+				<posx>50</posx>
+				<posy>2</posy>
+				<width>220</width>
+				<height>30</height>
+				<label>Test</label>
+				<font>Font_16</font>
+				<textcolor>FFFFFAF0</textcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<include>Animation_Fade</include>
+			</control>
+			<control type="image">
+				<posx>15</posx>
+				<posy>35</posy>
+				<width>200</width>
+				<height>2</height>
+				<texture>separator.png</texture>
+			</control>
+			<control type="label" id="120">
+				<posx>15</posx>
+				<posy>40</posy>
+				<width>220</width>
+				<height>200</height>
+				<font>Font_12</font>	
+				<wrapmultiline>true</wrapmultiline>
+        			<scrollspeed>50</scrollspeed>
+        			<scrollsuffix> - </scrollsuffix>  
+				<label>Chatting [CR]chatting</label>
+			</control>			
+		</control>
+	</controls>
+	</window>

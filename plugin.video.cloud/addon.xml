@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.cloud" name="Running TV" version="0.0.1" provider-name="jyc">
+	<extension point="xbmc.python.pluginsource" library="CloudStorage.py">
+	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary></summary>
+		<description></description>
+	</extension>
+</addon>

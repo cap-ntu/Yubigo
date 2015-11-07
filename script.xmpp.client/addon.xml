@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.xmpp.client" name="XMPP client script" version="0.1.0" provider-name="jyc">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<language/>
+		<summary lang="en">XMPP Client Script</summary>
+		<description lang="en">This script logs in the XMPP server with specific user name and password.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
